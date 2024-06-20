@@ -96,11 +96,11 @@ extension UIView {
         anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: view.bottomAnchor, trailing: view.trailingAnchor)
     }
     
-    func addSubView(_ views: UIView...) {
+    func addSubViews(_ views: UIView...) {
         
         views.forEach {
             
-            self.addSubView($0)
+            self.addSubview($0)
         }
     }
     
