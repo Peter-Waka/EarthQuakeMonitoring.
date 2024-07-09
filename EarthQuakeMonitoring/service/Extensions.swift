@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 extension UIView {
     func anchor(top: NSLayoutYAxisAnchor? = nil,
@@ -118,3 +119,14 @@ extension UILabel {
         self.numberOfLines = numberOfLines
     }
 }
+
+//extension CLLocation {
+//    
+//    func fetchLocationInformation(completion: @escaping(_ city: String?, _ country: String?, _ error: Error?) -> ()) {
+//        
+//        CLGeocoder().reverseGeocodeLocation(self) {
+//            completion($0?.first? .locality, $0?.first?.country, $1)
+//        }
+//    }
+//}
+

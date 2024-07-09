@@ -24,9 +24,9 @@ class MainTabBarController: UITabBarController {
         viewControllers = [
         createNavigationController(rootViewController: MapViewController(), title: "Maps", image: UIImage(systemName: "map.circle", withConfiguration: configuration)!, selectedImage: UIImage(systemName: "map.circle.fill", withConfiguration: configuration)!),
             
-        createNavigationController(rootViewController: SearchViewController(), title: "Maps", image: UIImage(systemName: "magnifyingglass.circle", withConfiguration: configuration)!, selectedImage: UIImage(systemName: "magnifyingglass.circle.fill", withConfiguration: configuration)!),
+        createNavigationController(rootViewController: SearchViewController(), title: "Search", image: UIImage(systemName: "magnifyingglass.circle", withConfiguration: configuration)!, selectedImage: UIImage(systemName: "magnifyingglass.circle.fill", withConfiguration: configuration)!),
         
-        createNavigationController(rootViewController: FavouritesController(), title: "Maps", image: UIImage(systemName: "heart.circle", withConfiguration: configuration)!, selectedImage: UIImage(systemName: "heart.circle.fill", withConfiguration: configuration)!),
+        createNavigationController(rootViewController: FavouritesController(), title: "Favourites", image: UIImage(systemName: "heart.circle", withConfiguration: configuration)!, selectedImage: UIImage(systemName: "heart.circle.fill", withConfiguration: configuration)!),
         
         ]
     }

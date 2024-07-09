@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40A6CBD2C33CD7D0067FBAD /* FavouritesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E40A6CBB2C33CD7D0067FBAD /* FavouritesModel.xcdatamodeld */; };
+		E40A6CC02C33CE880067FBAD /* Favourites+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A6CBE2C33CE880067FBAD /* Favourites+CoreDataClass.swift */; };
+		E40A6CC12C33CE880067FBAD /* Favourites+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A6CBF2C33CE880067FBAD /* Favourites+CoreDataProperties.swift */; };
+		E40A6CC52C33CF7E0067FBAD /* FavouritesLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A6CC42C33CF7E0067FBAD /* FavouritesLocationCell.swift */; };
+		E40A6CC72C33F7BC0067FBAD /* DetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40A6CC62C33F7BC0067FBAD /* DetailTableCell.swift */; };
 		E44B619E2C23FA0E008D6D77 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B619D2C23FA0E008D6D77 /* Extensions.swift */; };
 		E44B61A02C240DC0008D6D77 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B619F2C240DC0008D6D77 /* MainTabBarController.swift */; };
 		E44B61A22C240FAD008D6D77 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B61A12C240FAD008D6D77 /* MapViewController.swift */; };
 		E44B61A42C241014008D6D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B61A32C241014008D6D77 /* SearchViewController.swift */; };
 		E44B61A62C2410B0008D6D77 /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B61A52C2410B0008D6D77 /* FavouritesController.swift */; };
 		E44B61A82C24110F008D6D77 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44B61A72C24110F008D6D77 /* DetailedViewController.swift */; };
+		E4535FBF2C3680F500DE2B47 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4535FBE2C3680F500DE2B47 /* CoreDataService.swift */; };
 		E4C1ADA22C1B2202003F3798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1ADA12C1B2202003F3798 /* AppDelegate.swift */; };
 		E4C1ADA42C1B2202003F3798 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1ADA32C1B2202003F3798 /* SceneDelegate.swift */; };
 		E4C1ADA62C1B2202003F3798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C1ADA52C1B2202003F3798 /* ViewController.swift */; };
@@ -41,12 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40A6CBC2C33CD7D0067FBAD /* FavouritesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavouritesModel.xcdatamodel; sourceTree = "<group>"; };
+		E40A6CBE2C33CE880067FBAD /* Favourites+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favourites+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E40A6CBF2C33CE880067FBAD /* Favourites+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favourites+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E40A6CC42C33CF7E0067FBAD /* FavouritesLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesLocationCell.swift; sourceTree = "<group>"; };
+		E40A6CC62C33F7BC0067FBAD /* DetailTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableCell.swift; sourceTree = "<group>"; };
 		E44B619D2C23FA0E008D6D77 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E44B619F2C240DC0008D6D77 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		E44B61A12C240FAD008D6D77 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E44B61A32C241014008D6D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E44B61A52C2410B0008D6D77 /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
 		E44B61A72C24110F008D6D77 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		E4535FBE2C3680F500DE2B47 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		E4C1AD9E2C1B2202003F3798 /* EarthQuakeMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthQuakeMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C1ADA12C1B2202003F3798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4C1ADA32C1B2202003F3798 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E44B619D2C23FA0E008D6D77 /* Extensions.swift */,
+				E4535FBE2C3680F500DE2B47 /* CoreDataService.swift */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -109,6 +122,8 @@
 		E44B619B2C23F9D1008D6D77 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E40A6CBE2C33CE880067FBAD /* Favourites+CoreDataClass.swift */,
+				E40A6CBF2C33CE880067FBAD /* Favourites+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -116,6 +131,8 @@
 		E44B619C2C23F9E8008D6D77 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E40A6CC42C33CF7E0067FBAD /* FavouritesLocationCell.swift */,
+				E40A6CC62C33F7BC0067FBAD /* DetailTableCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +170,7 @@
 				E4C1ADAA2C1B2204003F3798 /* Assets.xcassets */,
 				E4C1ADAC2C1B2204003F3798 /* LaunchScreen.storyboard */,
 				E4C1ADAF2C1B2204003F3798 /* Info.plist */,
+				E40A6CBB2C33CD7D0067FBAD /* FavouritesModel.xcdatamodeld */,
 			);
 			path = EarthQuakeMonitoring;
 			sourceTree = "<group>";
@@ -309,13 +327,19 @@
 			files = (
 				E4C1ADA62C1B2202003F3798 /* ViewController.swift in Sources */,
 				E44B61A62C2410B0008D6D77 /* FavouritesController.swift in Sources */,
+				E40A6CC02C33CE880067FBAD /* Favourites+CoreDataClass.swift in Sources */,
+				E40A6CC12C33CE880067FBAD /* Favourites+CoreDataProperties.swift in Sources */,
 				E44B61A42C241014008D6D77 /* SearchViewController.swift in Sources */,
 				E44B61A22C240FAD008D6D77 /* MapViewController.swift in Sources */,
 				E4C1ADA22C1B2202003F3798 /* AppDelegate.swift in Sources */,
+				E4535FBF2C3680F500DE2B47 /* CoreDataService.swift in Sources */,
+				E40A6CC72C33F7BC0067FBAD /* DetailTableCell.swift in Sources */,
 				E44B61A82C24110F008D6D77 /* DetailedViewController.swift in Sources */,
 				E44B61A02C240DC0008D6D77 /* MainTabBarController.swift in Sources */,
+				E40A6CC52C33CF7E0067FBAD /* FavouritesLocationCell.swift in Sources */,
 				E4C1ADA42C1B2202003F3798 /* SceneDelegate.swift in Sources */,
 				E44B619E2C23FA0E008D6D77 /* Extensions.swift in Sources */,
+				E40A6CBD2C33CD7D0067FBAD /* FavouritesModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +689,20 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		E40A6CBB2C33CD7D0067FBAD /* FavouritesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E40A6CBC2C33CD7D0067FBAD /* FavouritesModel.xcdatamodel */,
+			);
+			currentVersion = E40A6CBC2C33CD7D0067FBAD /* FavouritesModel.xcdatamodel */;
+			name = FavouritesModel.xcdatamodeld;
+			path = "/Users/emtechmac/Desktop/E&M iOS/waka/EarthQuakeMonitoring/EarthQuakeMonitoring/FavouritesModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E4C1AD962C1B2202003F3798 /* Project object */;
 }
