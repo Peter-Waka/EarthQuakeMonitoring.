@@ -11,7 +11,13 @@ import CoreLocationUI
 
 
 class MapViewController: UIViewController {
-    
+  var earthquake: EarthquakeData?
+
+private let mapView: MKMapView = {
+   let mapView = MKMapView()
+   mapView.translatesAutoresizingMaskIntoConstraints = false
+   return mapView
+}()
     let map = MKMapView()
     let locationManager = CLLocationManager()
     
